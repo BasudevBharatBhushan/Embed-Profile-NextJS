@@ -7,6 +7,9 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
+      backgroundImage: (theme) => ({
+        "custom-image": `url('/assets/bgImage.png')`,
+      }),
       colors: {
         primary: "#202225",
         secondary: "#5865f2",
