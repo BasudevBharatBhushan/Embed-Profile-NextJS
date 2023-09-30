@@ -88,11 +88,11 @@ const Home = () => {
           </div>
 
           <div className="  flex flex-col justify-around items-center mt-40 gap-5">
-            <p className="  text-7xl font-bold text-[#A6A6A6] mt-6 mb-10">
+            <p className="  text-5xl font-bold text-[#A6A6A6] mt-6 mb-10">
               Project Challenge
             </p>
 
-            <p className=" text-center text-[#EBCF5F] text-1xl sm:text-8xl font-bold">
+            <p className=" text-center text-[#EBCF5F] text-1xl sm:text-6xl font-bold">
               Analyze Growth and Present Insight <br /> to <br />
               Telengana Government
             </p>
@@ -187,8 +187,8 @@ const Home = () => {
           <div>
             <iframe
               title="Telangana State"
-              width="1344"
-              height="756"
+              width="1120"
+              height="630"
               src="https://app.powerbi.com/view?r=eyJrIjoiNzA2NjQxYjMtMjU3My00MGM3LTg5NjEtOGQxNWM2NjlmMDQ3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
               frameborder="0"
               allowFullScreen="true"
@@ -197,8 +197,8 @@ const Home = () => {
 
           <div>
             <iframe
-              width="1344"
-              height="756"
+              width="1120"
+              height="630"
               src="https://www.youtube.com/embed/VumzITORImI?si=85Feh5jqlZtna9Sz"
               title="YouTube video player"
               frameborder="0"

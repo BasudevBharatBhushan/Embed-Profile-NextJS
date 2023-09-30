@@ -34,7 +34,7 @@ const PDFViewer = () => {
     };
   }, []); // Empty dependency array ensures the effect runs once after the initial render
 
-  return <div id="viewer" style={{ width: "1344px", height: "756px" }}></div>;
+  return <div id="viewer" style={{ width: "1120px", height: "630px" }}></div>;
 };
 
 export default PDFViewer;
