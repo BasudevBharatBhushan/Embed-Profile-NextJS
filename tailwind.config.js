@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        "custom-image": `url('/assets/bgImage.png')`,
+        "custom-image": `url('/assets/bg.png')`,
       }),
       colors: {
         primary: "#202225",

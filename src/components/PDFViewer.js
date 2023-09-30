@@ -12,6 +12,7 @@ const PDFViewer = () => {
         documentId: "ed4747e8-2ccd-4b35-966f-6f949a1f4ee0",
         darkMode: true,
         themeColor: "#5163ba",
+        defaultScale: "FIT_WIDTH",
         appBarColored: true,
         disableToolbar: false,
         disableElements: ["darkmode", "fullscreen"],
@@ -33,7 +34,7 @@ const PDFViewer = () => {
     };
   }, []); // Empty dependency array ensures the effect runs once after the initial render
 
-  return <div id="viewer" style={{ width: "1120px", height: "630px" }}></div>;
+  return <div id="viewer" style={{ width: "1344px", height: "756px" }}></div>;
 };
 
 export default PDFViewer;
